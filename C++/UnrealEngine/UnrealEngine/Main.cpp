@@ -17,9 +17,15 @@ int main()
 
 	// Print sum and product to the terminal 
 	std::cout << std::endl;
-	std::cout << "There are 3 numbers in teh code" << std::endl;
-	std::cout << "The codes add-up to: " << std::endl;
-	std::cout << product << std::endl;
+	std::cout << "+ There are 3 numbers in teh code" << std::endl;
+	std::cout << "+ The codes add-up to: " << std::endl;
+	std::cout << "+ The codes multiply to givae: " << product << std::endl;
 
+	int GuessA, GuessB, GuessC;
+	std::cin >> GuessA;
+	std::cin >> GuessB;
+	std::cin >> GuessC;
+	std::cout << "You entered" << GuessA << GuessB << GuessC;
+	
 	return 0;
 }
